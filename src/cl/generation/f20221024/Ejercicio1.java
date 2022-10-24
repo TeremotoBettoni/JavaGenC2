@@ -18,7 +18,6 @@ public class Ejercicio1 {
 		int c = Integer.parseInt(b+"");
 		System.out.println(c);
 		
-		
 	}
 
 }
