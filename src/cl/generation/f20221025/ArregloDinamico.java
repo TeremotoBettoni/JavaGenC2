@@ -48,6 +48,16 @@ public class ArregloDinamico {
 			System.out.println(integrente);
 		}
 		
+		//ArrayList con numeros recorrido
+		ArrayList<Integer> numeros = new ArrayList<Integer>();
+		numeros.add(2);
+		numeros.add(3);
+		numeros.add(4);
+		numeros.add(5);
+		System.out.println("Los numeros dentro del arreglo son:");
+		for (Integer numero : numeros) { // for (tipoDeDato variable:Arreglo)
+			System.out.println(numero);
+		}
 
 	}
 
