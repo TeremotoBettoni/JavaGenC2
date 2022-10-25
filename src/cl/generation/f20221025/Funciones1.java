@@ -16,6 +16,12 @@ public class Funciones1 {
 		String[] vocales = {"a","e","i","o","u"};
 		metodo5(vocales);// cuando traspaso un arreglo lo debemos declarar antes como esta en lines 14
 		
+		//llamamos a los metodos con retorno
+		retorno1();
+		System.out.println(retorno1());
+		Integer valorRetornado = retorno1(); // asignamos una variable con lo que obtenemos dentro de la funcion o metodo cuendo queramos usarlo
+		System.out.println(valorRetornado/7);
+		
 	}
 	// definicion o estructura de un metodo
 	// static nos permite ingresar a este metodo sin necesidad de crear una instancia de la clase (no requiere new)
@@ -39,6 +45,15 @@ public class Funciones1 {
 	
 	public static void metodo5(String [] arreglito) {
 		System.out.println("Soy el arreglo "+ Arrays.toString(arreglito));// se imprime con arrays.tostring
+	}
+	
+	// funciones con retorno
+	// cambiamos el void por el tipo de dato que queremos retornar
+	
+	public static Integer retorno1() {
+		Integer totalAlumnos = 35;
+		return totalAlumnos;// es igual a return 35;
+		
 	}
 	
 		
