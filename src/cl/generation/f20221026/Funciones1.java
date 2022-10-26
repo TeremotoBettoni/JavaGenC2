@@ -35,7 +35,7 @@ public class Funciones1 {
 		System.out.println("El nombre completo es: " + fullName);
 		
 		// llamamos a el metyodo que llama a otro metodo
-		llamadaAOtroMetodo();
+		llamadaAOtroMetodo();// sio preciono ctrl +clik me leva al metodo
 		
 
 	}
