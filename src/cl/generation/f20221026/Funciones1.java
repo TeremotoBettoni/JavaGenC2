@@ -27,12 +27,16 @@ public class Funciones1 {
 												// metodo cuendo queramos usarlo
 		System.out.println(valorRetornado / 7);
 
-		//
+		//*************
 		String fullName = getNombreCompleto("Teresa", "Bettoni", "Ramos");// para poder visualizar lo que hay que
 																			// ingresar al llamar a la funcion
 																			// escribimos el nombre de la funcion y
 																			// CTRL+ESPACIO
 		System.out.println("El nombre completo es: " + fullName);
+		
+		// llamamos a el metyodo que llama a otro metodo
+		llamadaAOtroMetodo();
+		
 
 	}
 
@@ -81,6 +85,13 @@ public class Funciones1 {
 	public static String getNombreCompleto(String nombre, String apePaterno, String apeMaterno) {
 		String nombreCompleto = nombre + " " + apePaterno + " " + apeMaterno;
 		return nombreCompleto;// retornamos el contenido de la variable
+	}
+	
+	//metodo que llama a otro metodo
+	public static void llamadaAOtroMetodo() {
+		System.out.println("Llamada a otro metodo desde un metodo");
+		metodo4(1234,54.3f);
+		
 	}
 
 }
