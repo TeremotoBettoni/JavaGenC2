@@ -25,7 +25,7 @@ public class MainUsuario {
 		System.out.println("***********************");
 		System.out.println("Ingresa telefono");
 		persona.setTelefono(sc.nextInt());
-		System.out.println("***********************");
+		System.out.println("*****************************************************************");
 		
 		System.out.println(persona);
 	}
