@@ -37,6 +37,12 @@ public class Kineciologo extends EquipoBasquetball{
 				+ ", getApellido()=" + getApellido() + ", getEdad()=" + getEdad() + "]";
 	}
 	
+	@Override // sobre escribiendo el metodo
+	public void metodoImprimir() {
+		System.out.println("Estoy en el metodo de la clase hija Kineciologo");
+		
+	}
+	
 	
 	
 	

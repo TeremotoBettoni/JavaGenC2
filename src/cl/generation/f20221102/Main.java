@@ -13,7 +13,10 @@ public class Main {
 		entrenador.setAnios_experiencia(10);
 		entrenador.setEquipo("Valdivia");
 		
+		Entrenador entrenadorAyudante = new Entrenador("Israel","Palma",42,17,"Cohorte2");
+		// imprimiendo los atributos del objeto
 		System.out.println(entrenador.toString());
+		System.out.println(entrenadorAyudante.toString());
 		
 		Kineciologo kine= new Kineciologo();
 		kine.setNombre("Jane");
@@ -42,6 +45,17 @@ public class Main {
 		for (Basquebolista jugador : listaJugadores) {
 			System.out.println(jugador.toString());
 		}
+		
+		entrenador.metodoImprimir();
+		kine.metodoImprimir();
+		basque2.metodoImprimir();
+		
+		// instancia de cloase nieta de ayudante
+		Ayudante ayudante = new Ayudante();
+		ayudante.metodoImprimir();
+		
+		
+		
 		
 	}
 

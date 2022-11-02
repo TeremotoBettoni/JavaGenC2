@@ -45,5 +45,10 @@ public class EquipoBasquetball {
 		return "EquipoBasquetball [nombre=" + nombre + ", apellido=" + apellido + ", edad=" + edad + "]";
 	}
 	
+	// creando el metodo
+	public void metodoImprimir() {
+		System.out.println("Estoy en el metodo de la super clase");
+	}
+	
 	
 }
