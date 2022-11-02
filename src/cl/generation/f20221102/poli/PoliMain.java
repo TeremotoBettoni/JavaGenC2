@@ -24,12 +24,18 @@ public class PoliMain {
 		System.out.println();
 		Mascota regalon = new Perro();
 		regalon.emitirSonido();
+		regalon.setNombre("Zoe");
 		System.out.println(regalon.toString()); 
 
 		Mascota michi = new Gato();
 		michi.emitirSonido();
 		
 		michi.horasSiestav(16.5f);
+		
+		//Perro dog = (Perro) new Mascota();
+		Perro dog = (Perro) regalon;// esto soplo se aplica cuando sabemos que el tipo de mascota es perro
+		System.out.println(dog.toString());
+		
 
 	}
 
